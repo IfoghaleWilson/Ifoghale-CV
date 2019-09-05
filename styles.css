@@ -1,0 +1,50 @@
+#flex-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ffffff;
+}
+#flex-container > div {
+    background-color: #ffffff;
+    width: 10000px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+    font-size: 100%;
+}
+#my-photo {
+    width: 100px;
+    height:100px;
+    border-radius: 100%;
+    margin: auto;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.work-time {
+    font-type:lighter;
+    font-size: 12px;
+    color: #3b3b3b;
+}
+.top-space {
+    margin-top: 100px;
+    color: #04598a
+}
+.sub-heading {
+    margin-bottom: 40px;
+    color: #04598a;
+    }
+.my-name {
+    font-size: 50px;
+}
+.left-margin-top {
+    margin-top: 130px;
+}
+.left-side {
+    margin-left: 500px;
+}
+.content {
+    color: #3b3b3b;
+}

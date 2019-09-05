@@ -1,4 +1,3 @@
-﻿
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,77 +7,128 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--setting the page width to fit any device-->
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<!--Does something to help internet explorer read the file?-->
-	<title>Ifoghale Eguwe-Resume</title>
+    <!--Does something to help internet explorer read the file?-->
+    <link rel="stylesheet" href="styles.css">
+    <title>Ifoghale Eguwe-Resume</title>
+    <style>
+        hr {
+            display: block;
+            margin-top: 0.9em;
+            margin-bottom: 0.9em;
+            margin-left: auto;
+            margin-right: auto;
+            border-style: inset;
+            border-width: 1px;
+        
+        }
+        </style>
 </head>
 <body>
-<table>
-<tr>
-	<td>
-	<h1>Ifoghale Eguwe</h1>
-	</td>
-	<td rowspan="2"> 
-	<small>11, Yomi Kayode, Akobo, Ibadan, Oyo State, Nigeria.</small><br>
-	<small>(+234)8149570440<small><br>
-	<small><a href="https://mailto:wilson.eguwe@gmail.com"/>wilson.eguwe@gmail.com</a></small><br>
-	<small><a href="https://github.com/IfoghaleWilson/">github.com/IfoghaleWilson</a></small><br>
-	<small><a href="https://www.linkedin.com/in/ifoghale-eguwe-737920188/">linkedin.com/in/ifoghale-eguwe</a></small><br>
-	</td>
-</tr>
-<tr>
-	<td><em><p>I am a frontend software engineer who is highly driven, self-motivated <br> towards company product goals, and works well in a team.<p></em></td> 
-</tr>
-<tr>
-	<td><h3>EXPERIENCE</h3></td>
-	<td><h3>SKILLS</h3></td>
-</tr>
-<tr>
-<td>
-	<strong>Nigerian Breweries</strong> Iganmu, Lagos- <em>TPM Intern</em>
-	<p><small>March 2019 - June 2019</small></p >
-	<p>-Analysing daily breakdown data obtained from shopfloor to generate trends and follow-up procedures with Ms-Excel</p>
-	<p>-Performed machine audits in several departments and recorded data on One2Improve software to ensure optimal flow of work processes</p>
-	<p>-Carried out on-site coaching on process improvement methods for machine operators in the presence of team leads</p>
-</td>
-<td>
-	<p>-AutoCAD</p>
-	<p>-HTML & CSS</p>
-	<p>-MATLAB</p>
-	<p>-Microsoft Office Packages</p>
-</td>
-</tr>
-<tr>
-<td>
-	<strong>Melcon M Nigeria Ltd.</strong>, Surulere, Lagos- <em>Junior Project Engineer</em>
-	<p><small>July 2019 - September 2019</small></p >
-	<p>-Determined most effective approach to projects by reading and analysing architectural blueprints, drawings and sketches.</p>
-	<p>-Worked in teams to generate effective layouts for lighting, power and ELV circuits on AutoCAD.</p>
-	<p>-Load-scheduling and load balancing on electrical drawings using AutoCAD.</p>
-	<p>-On-site visit and support</p>
-</td>
-<td>
-	<h3>AWARDS</h3>
-	<p><strong>-Nigerian Breweries</strong> Secondary Education Scholarship</p>
-	<p><strong>-Nigerian Breweries</strong> Tetiary Education Scholarship</p>
-	
-</td>
-</tr>
-<tr>
-<td>
-	<h3>EDUCATION</h3>
-	<strong>Covenant University</strong>, Ota, Ogun- <em>B.Eng Electrical & Electronics Engineering(In-View)</em>
-	<p><small>August 2015 - Present</small></p >
-	<p>Relevant Courses include: Circuit Theory, Engineering Software packages, C programming, Digital Electronics </p >
-	<strong>Oritamefa Baptist Model School</strong>, Ibadan, Oyo State- <em>SSCE</em>
-	<p><small>September 2009 - July 2015</small></p >
-	<p>-9 distinctions in WASSCE exams.</p>
-	<p>-Member of the student leadership committee.</p >
-</td>
-<td>
-<h3>LANGUAGES</h3>
-	<p>-English</p>
-</td>
-</tr>
-</table>
+    <div id="flex-container">
+        <div style="flex-shrink: 0.97">
+            <img id="my-photo" src="https://res.cloudinary.com/ifoghaleeguwe/image/upload/v1566641970/paint_rejn7u.jpg" alt="photo of me">
+            <h1 class="my-name">Ifoghale Eguwe</h1>
+            <p>I am a frontend software engineer who is highly driven, self-motivated <br> towards company product goals, and works well in a team.</p>
+            <hr>
+            <h3 class="sub-heading">EXPERIENCE</h3>
+
+            <strong>Nigerian Breweries</strong>, Iganmu, Lagos- <em>TPM Intern</em>
+            <p class="work-time">March 2019 - June 2019</p >
+            <p class="content">-Analysing daily breakdown data obtained from shopfloor to generate trends and follow-up procedures with Ms-Excel</p>
+            <p class="content">-Performed machine audits in several departments and recorded data on One2Improve software to ensure optimal flow of work processes</p>
+            <p class="content">-Carried out on-site coaching on process improvement methods for machine operators in the presence of team leads</p>
+            <hr>
+            <strong>Melcon M Nigeria Ltd.</strong>, Surulere, Lagos- <em>Junior Project Engineer</em>
+            <p class="work-time">July 2019 - September 2019</p >
+            <p class="content">-Determined most effective approach to projects by reading and analysing architectural blueprints, drawings and sketches.</p>
+            <p class="content">-Worked in teams to generate effective layouts for lighting, power and ELV circuits on AutoCAD.</p>
+            <p class="content">-Load-scheduling and load balancing on electrical drawings using AutoCAD.</p>
+            <p class="content">-On-site visit and support</p>
+            <br>
+            <h3 class="sub-heading">EDUCATION</h3>
+            <strong>Covenant University</strong>, Ota, Ogun- <em>B.Eng Electrical & Electronics Engineering(In-View)</em>
+            <p class="work-time">August 2015 - Present</p >
+            <p class="content">Relevant Courses include: Circuit Theory, Engineering Software packages, C programming, Digital Electronics </p >
+            <hr>
+                <strong>Oritamefa Baptist Model School</strong>, Ibadan, Oyo State- <em>SSCE</em>
+            <p class="work-time">September 2009 - July 2015</p >
+            <p class="content">-9 distinctions in WASSCE exams.</p>
+            <p class="content">-Member of the student leadership committee.</p >
+               
+
+        </div>
+        <div>
+            <p class="left-margin-top">11, Yomi Kayode, Akobo, Ibadan, Oyo State, Nigeria.</p>
+            <p>(+234)8149570440<p>
+            <p><a href="https://mailto:wilson.eguwe@gmail.com"/>wilson.eguwe@gmail.com</a><br>
+            <a href="https://github.com/IfoghaleWilson/">github.com/IfoghaleWilson</a></small><br>
+            <a href="https://www.linkedin.com/in/ifoghale-eguwe-737920188/">linkedin.com/in/ifoghale-eguwe</a></p>
+            <br>
+            <h3 class="sub-heading">SKILLS</h3
+                <p class="content">-AutoCAD</p>
+                <p class="content">-HTML 5 & CSS 3</p>
+                <p class="content">-MATLAB</p>
+                <p class="content">-Microsoft Office Packages</p>
+                <br>
+            <h3 class="top-space">AWARDS</h3>
+	        <p class="content"><strong>-Nigerian Breweries</strong>, Secondary Education Scholarship</p>
+            <p class="content"><strong>-Nigerian Breweries</strong>, Tetiary Education Scholarship</p>
+            <br>
+            <h3 class="top-space">LANGUAGES</h3>
+	        <p class="content">-English</p>
+        </div>
+    </div>
+    <div class="contact-form-container">
+<form class="contact-form-content" name=ContactForm method="POST" onsubmit="return IfoghaleForm ()">
+        <h2>Get in touch</h2>
+        <input type="text" name="Name" placeholder="Your Name" class="message-box-1"><br>
+        <input type="email" name="Email" placeholder="Email address" class="message-box-2"><br>
+        <input type ="text" name="Title" minlength="4" placeholder="Title:" class="message-box-3">
+        <br>
+        <textarea minlength="20" name="message" placeholder="Your Message ..." required class="message-box-4"></textarea><br>
+        <input type="submit" name="Submit" value="Send">
+    </form>
+</div>
+<script>
+    function IfoghaleForm()
+    {
+    var name = document.forms["ContactForm"]["Name"];
+    var email = document.forms["ContactForm"]["Email"];
+    var title = document.forms["ContactForm"]["Title"];
+    var message = document.forms["ContactForm"]["message"];
+    if (name.value == "")
+    {
+        window.alert("Please enter your name");
+        name.focus ();
+        return false;
+    }
+    if (email.value == "")
+    {
+        window.alert("Please enter a valid email address");
+        email.focus ();
+        return false;
+    }
+    if (title.value == "")
+    {
+        window.alert("Please enter a title");
+        title.focus ();
+        return false;
+    }
+    if (message.value == "")
+    {
+        window.alert("What's your message?");
+        message.focus ();
+        return false;
+    }
+    if (email.value.indexOf ("@" , 0) < 0)
+    {
+        window.alert("Please enter a valid email address");
+        email.focus ();
+        return false;
+    }
+
+    return true;
+
+</script>
 </body>
 </html>
