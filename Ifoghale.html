@@ -78,6 +78,57 @@
 	        <p class="content">-English</p>
         </div>
     </div>
+    <div class="contact-form-container">
+<form class="contact-form-content" name=ContactForm method="POST" onsubmit="return IfoghaleForm ()">
+        <h2>Get in touch</h2>
+        <input type="text" name="Name" placeholder="Your Name" class="message-box-1"><br>
+        <input type="email" name="Email" placeholder="Email address" class="message-box-2"><br>
+        <input type ="text" name="Title" minlength="4" placeholder="Title:" class="message-box-3">
+        <br>
+        <textarea minlength="20" name="message" placeholder="Your Message ..." required class="message-box-4"></textarea><br>
+        <input type="submit" name="Submit" value="Send">
+    </form>
+</div>
+<script>
+    function IfoghaleForm()
+    {
+    var name = document.forms["ContactForm"]["Name"];
+    var email = document.forms["ContactForm"]["Email"];
+    var title = document.forms["ContactForm"]["Title"];
+    var message = document.forms["ContactForm"]["message"];
+    if (name.value == "")
+    {
+        window.alert("Please enter your name");
+        name.focus ();
+        return false;
+    }
+    if (email.value == "")
+    {
+        window.alert("Please enter a valid email address");
+        email.focus ();
+        return false;
+    }
+    if (title.value == "")
+    {
+        window.alert("Please enter a title");
+        title.focus ();
+        return false;
+    }
+    if (message.value == "")
+    {
+        window.alert("What's your message?");
+        message.focus ();
+        return false;
+    }
+    if (email.value.indexOf ("@" , 0) < 0)
+    {
+        window.alert("Please enter a valid email address");
+        email.focus ();
+        return false;
+    }
 
+    return true;
+
+</script>
 </body>
 </html>
